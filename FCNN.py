@@ -226,5 +226,5 @@ print("Best Score:", best_score)
 
 
 # Save the best model
-model.save('kcomplex_model_FNN.h5')
-print('Best model saved as kcomplex_model_FNN.h5')
+model.save('kcomplex_model_FCNN.h5')
+print('Best model saved as kcomplex_model_FCNN.h5')

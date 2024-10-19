@@ -2,6 +2,7 @@
 # K-Complex Detection Using Machine Learning Models
 
 This repository contains the code and resources for detecting K-Complexes in EEG data using machine learning models. K-Complexes are important waveforms in sleep studies and are useful for analyzing sleep patterns, particularly in sleep stage classification.
+(Some files are not included for private license)
 
 ## Table of Contents
 

@@ -21,7 +21,7 @@ K-Complexes are distinct waveforms seen in electroencephalogram (EEG) readings d
 
 ## Project Structure
 
-\`\`\`bash
+```bash
 K-Complex-Detection-Using-Machine-Learning-Models/
 │
 ├── data/                # EEG data for training and testing the models
@@ -30,7 +30,7 @@ K-Complex-Detection-Using-Machine-Learning-Models/
 ├── scripts/             # Python scripts for data preprocessing and model training
 ├── README.md            # Project documentation (this file)
 └── requirements.txt     # Python dependencies
-\`\`\`
+```
 
 ## Requirements
 
@@ -49,21 +49,21 @@ To set up the environment for this project, follow these steps:
 
 1. Clone this repository:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/Francesco-Greca/K-Complex-Detection-Using-Machine-Learning-Models.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
 
-   \`\`\`bash
+   ```bash
    cd K-Complex-Detection-Using-Machine-Learning-Models
-   \`\`\`
+   ```
 
 3. Install the required dependencies:
 
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -71,21 +71,21 @@ To use the project, you can follow these steps:
 
 1. **Preprocess the Data**: Run the preprocessing script to clean and prepare the EEG data for training.
    
-   \`\`\`bash
+   ```bash
    python scripts/preprocess_data.py
-   \`\`\`
+   ```
 
 2. **Train a Model**: Choose a machine learning model and start training on the prepared dataset.
    
-   \`\`\`bash
+   ```bash
    python scripts/train_model.py --model <model_name>
-   \`\`\`
+   ```
 
 3. **Evaluate the Model**: After training, you can evaluate the performance using:
 
-   \`\`\`bash
+   ```bash
    python scripts/evaluate_model.py --model <model_name>
-   \`\`\`
+   ```
 
 ## Model Overview
 
